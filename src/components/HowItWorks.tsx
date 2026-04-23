@@ -8,12 +8,12 @@ const HowItWorks = () => {
       <div className="max-w-7xl mx-auto px-6 lg:px-12">
         {/* Section Header */}
         <div className="text-center mb-16">
-          <span className="inline-block px-4 py-1.5 border border-gray-300 rounded-lg text-base font-medium text-[#333333] mb-5">
+          <span className="inline-block px-4 py-1.5 border border-gray-300 rounded-lg text-sm sm:text-base font-medium text-[#333333] mb-5">
             How It Works
           </span>
-          <h2 className="text-5xl sm:text-3xl sm:leading-[1.15] lg:text-[2.75rem] font-medium text-[#333333] leading-[1.5] tracking-[-0.02em]">
+          <h2 className="text-3xl sm:text-4xl lg:text-5xl font-medium text-[#333333] leading-[1.2] lg:leading-[1.15] tracking-[-0.02em]">
             Three steps. Ten seconds.
-            <br />
+            <br className="hidden sm:block" />
             Zero risk.
           </h2>
         </div>

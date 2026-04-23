@@ -9,14 +9,14 @@ const Features = () => {
       <div className="max-w-7xl mx-auto px-6 lg:px-12">
 
         {/* Section Header */}
-        <div className="mb-14">
-          <span className="inline-block px-4 py-1.5 border border-gray-300 rounded-lg text-base font-medium text-[#333333] mb-5">
+        <div className="mb-14 text-center lg:text-left">
+          <span className="inline-block px-4 py-1.5 border border-gray-300 rounded-lg text-sm sm:text-base font-medium text-[#333333] mb-5">
             Features
           </span>
-          <h2 className="text-5xl sm:text-3xl sm:leading-[1.15] lg:text-[2.75rem] font-medium text-[#333333] leading-[1.15] tracking-[-0.02em] mb-4 max-w-lg">
+          <h2 className="text-3xl sm:text-4xl lg:text-5xl font-medium text-[#333333] leading-[1.2] lg:leading-[1.15] tracking-[-0.02em] mb-4 max-w-lg mx-auto lg:mx-0">
             Powerful features for instant scam detection
           </h2>
-          <p className="text-base font-light">
+          <p className="text-sm sm:text-base font-light">
             Everything you need to verify messages, links, and numbers in one place.
           </p>
         </div>

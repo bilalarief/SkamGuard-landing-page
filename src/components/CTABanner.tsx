@@ -11,14 +11,14 @@ const CTABanner = () => {
           </svg>
         </div>
 
-        <div className="relative z-10">
-          <h2 className="text-5xl sm:text-3xl sm:leading-[1.15] lg:text-[2.75rem] font-semibold text-slate-50 leading-[1.15] tracking-[-0.02em] mb-4">
+        <div className="relative z-10 text-center">
+          <h2 className="text-3xl sm:text-4xl lg:text-5xl font-semibold text-slate-50 leading-[1.2] lg:leading-[1.15] tracking-[-0.02em] mb-4">
             RM1.57 billion lost last year.
-            <br />
+            <br className="hidden sm:block" />
             Don't be next.
           </h2>
 
-          <p className="text-sky-100 text-[15px] font-medium mb-8 max-w-lg mx-auto">
+          <p className="text-sky-100 text-sm sm:text-[15px] font-medium mb-8 max-w-lg mx-auto px-4">
             <span className="font-extrabold text-white">SkamGuard</span> gives you the one thing scammers hate most: time to think before you act.
           </p>
 

@@ -49,12 +49,14 @@ const FAQ = () => {
         <div className="grid lg:grid-cols-[320px_1fr] gap-12 lg:gap-16">
 
           {/* Left - Header */}
-          <div>
-            <span className="inline-block px-4 py-1.5 border border-gray-300 rounded-lg text-base font-medium text-[#333333] mb-5">
+          <div className="text-center lg:text-left">
+            <span className="inline-block px-4 py-1.5 border border-gray-300 rounded-lg text-sm sm:text-base font-medium text-[#333333] mb-5">
               Questions
             </span>
-            <h2 className="text-5xl sm:text-3xl sm:leading-[1.15] lg:text-[2.75rem] font-medium text-[#333333] leading-[1.15] tracking-[-0.02em]">
-              Frequently Ask Question
+            <h2 className="text-3xl sm:text-4xl lg:text-5xl font-medium text-[#333333] leading-[1.2] lg:leading-[1.15] tracking-[-0.02em]">
+              Frequently Ask
+              <br className="hidden sm:block" />
+              Question
             </h2>
           </div>
 
