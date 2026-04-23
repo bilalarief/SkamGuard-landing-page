@@ -23,7 +23,7 @@ const CTABanner = () => {
           </p>
 
           <a
-            href="#"
+            href="https://skamguard-710868323753.asia-southeast1.run.app/"
             className="inline-block px-6 py-3 bg-white text-gray-800 text-base font-medium rounded-md hover:bg-gray-100 transition-colors duration-200 mb-8"
           >
             Protect Yourself Now
