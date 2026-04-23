@@ -1,0 +1,52 @@
+{
+  "articles": [
+    {
+      "id": "article-001",
+      "title": "Malaysians Lost Over RM2.7 Billion to Online Scams in 2025",
+      "summary": "PDRM recorded 67,735 online crime cases from January to November 2025, with total losses exceeding RM2.7 billion — a sharp rise from RM1.6 billion in 2024. Telecommunications scams led with 28,698 cases, while investment fraud caused the highest financial damage at RM1.37 billion.",
+      "source": "Malay Mail",
+      "source_url": "https://www.malaymail.com/news/malaysia/2025/12/08/malaysians-swindled-out-of-rm27b-in-cyber-scams-in-just-11-months-police-data-reveals/201156",
+      "date": "2025-12-08",
+      "category": "Statistics",
+      "relevance_tags": [
+        "statistics",
+        "pdrm",
+        "malaysia",
+        "2025",
+        "losses"
+      ]
+    },
+    {
+      "id": "article-002",
+      "title": "Investment Fraud Losses Hit RM1.47 Billion — Victims Trapped in Fake Profit Platforms",
+      "summary": "Investment scams caused RM1.47 billion in losses across 9,603 cases in 2025. Syndicates lure victims via Facebook and Instagram, then shift them to fake trading platforms where profits appear but withdrawals are blocked. Those aged 31–50 are most affected, especially the 41–50 age group.",
+      "source": "Malay Mail",
+      "source_url": "https://www.malaymail.com/news/malaysia/2026/04/18/investment-fraud-losses-hit-rm147b-police-say-victims-trapped-in-fake-profits-before-being-hit-with-hidden-fees/216719",
+      "date": "2026-04-18",
+      "category": "Investment Scam",
+      "relevance_tags": [
+        "investment scam",
+        "crypto",
+        "pdrm",
+        "social media",
+        "2025"
+      ]
+    },
+    {
+      "id": "article-003",
+      "title": "Malaysians Face 140 Scam Attempts Per Person Each Year, GASA Reports",
+      "summary": "A 2025 report by the Global Anti-Scam Alliance revealed that 85% of Malaysian adults have been exposed to scam attempts, averaging 140 attempts per person annually. Despite this, only 13% of victims managed to partially recover their money after reporting to payment services.",
+      "source": "Malay Mail",
+      "source_url": "https://www.malaymail.com/news/malaysia/2025/10/02/with-malaysians-each-facing-140-scam-bids-a-year-experts-call-for-urgent-and-concerted-response/193091",
+      "date": "2025-10-02",
+      "category": "Statistics",
+      "relevance_tags": [
+        "gasa",
+        "statistics",
+        "awareness",
+        "malaysia",
+        "2025"
+      ]
+    }
+  ]
+}
