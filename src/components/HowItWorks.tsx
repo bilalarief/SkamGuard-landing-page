@@ -24,7 +24,7 @@ const HowItWorks = () => {
           <div className="bg-[#F3F5F8] rounded-2xl p-6 flex flex-col">
             <img
               src={howItWorks1}
-              alt="Upload screenshot"
+              alt="User interface showing the process of uploading a screenshot of a suspicious message to SkamGuard"
               className="max-w-full h-auto object-contain"
             />
             <h3 className="text-lg font-semibold text-[#333333] mb-2">
@@ -40,7 +40,7 @@ const HowItWorks = () => {
           <div className="bg-[#F3F5F8] rounded-2xl p-6 flex flex-col">
             <img
               src={howItWorks2}
-              alt="AI analyzes instantly"
+              alt="Visualization of SkamGuard AI analyzing message content, checking URLs for safety, and verifying phone numbers"
               className="max-w-full h-auto object-contain"
             />
 
@@ -57,7 +57,7 @@ const HowItWorks = () => {
           <div className="bg-[#F3F5F8] rounded-2xl p-6 flex flex-col">
             <img
               src={howItWorks3}
-              alt="Get your risk report"
+              alt="A detailed SkamGuard risk report showing a risk score, identified red flags, and recommended next steps for the user"
               className="max-w-full h-auto object-contain"
             />
 

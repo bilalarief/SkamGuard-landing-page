@@ -49,7 +49,7 @@ const Hero = () => {
 
             <img
               src={heroImage}
-              alt="SkamGuard mobile interface"
+              alt="Hand holding a smartphone displaying the SkamGuard app interface with scam analysis results and risk score statistics"
               className="relative z-10 w-full max-w-[480px] lg:max-w-[520px] max-h-[60vh] lg:max-h-[80vh] object-contain drop-shadow-xl"
             />
           </div>
