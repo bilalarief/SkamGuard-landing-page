@@ -5,9 +5,6 @@ import Blog from './Blog';
 import Navigation from './Navigation';
 import { useEffect, useState } from 'react';
 
-const getImageUrl = (path: string) => {
-  return new URL(path, import.meta.url).href;
-};
 
 const BlogDetail = () => {
   const { slug } = useParams();
@@ -68,7 +65,7 @@ const BlogDetail = () => {
             
             <div className="bg-[#EDF1F7] rounded-3xl overflow-hidden aspect-[4/3] lg:aspect-auto lg:h-[450px]">
               <img 
-                src={getImageUrl(article.image)} 
+                src={article.image} 
                 alt={article.title} 
                 className="w-full h-full object-cover"
               />

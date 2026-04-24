@@ -1,11 +1,6 @@
 import { Link } from 'react-router-dom';
 import blogData from '../data/blogData.json';
 
-// Function to resolve image paths from JSON
-const getImageUrl = (path: string) => {
-  return new URL(path, import.meta.url).href;
-};
-
 const Blog = () => {
   return (
     <section id="blog" className="py-20 lg:py-28 bg-white">
@@ -33,7 +28,7 @@ const Blog = () => {
               {/* Image Container */}
               <div className="bg-[#EDF1F7] rounded-2xl h-56 mb-5 overflow-hidden">
                 <img
-                  src={getImageUrl(post.image)}
+                  src={post.image}
                   alt={post.title}
                   className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
                 />
