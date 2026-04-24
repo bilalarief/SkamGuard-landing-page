@@ -17,13 +17,15 @@ FROM nginx:stable-alpine
 # Remove default nginx configuration
 RUN rm /etc/nginx/conf.d/default.conf
 
-# Copy custom nginx configuration to the correct directory
-COPY nginx.conf /etc/nginx/conf.d/default.conf
+# Copy nginx config template (uses ${PORT} placeholder)
+COPY nginx.conf /etc/nginx/templates/default.conf.template
 
 # Copy the build output to the Nginx html directory
 COPY --from=build-stage /app/dist /usr/share/nginx/html
 
-EXPOSE 8080
+# Cloud Run provides PORT env var (default 8080)
+ENV PORT=8080
 
-# Start Nginx in the foreground
+# Start Nginx — the official nginx image auto-runs envsubst
+# on files in /etc/nginx/templates/ and outputs to /etc/nginx/conf.d/
 CMD ["nginx", "-g", "daemon off;"]
