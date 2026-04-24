@@ -2,143 +2,112 @@
   "articles": [
     {
       "id": "article-001",
-      "slug": "malaysians-lost-over-rm2-7-billion-to-online-scams-in-2025",
-      "title": "Malaysians Lost Over RM2.7 Billion to Online Scams in 2025",
-      "summary": "PDRM recorded 67,735 online crime cases from January to November 2025, with total losses exceeding RM2.7 billion — a sharp rise from RM1.6 billion in 2024. Telecommunications scams led with 28,698 cases, while investment fraud caused the highest financial damage at RM1.37 billion.",
-      "source": "Malay Mail",
-      "source_url": "https://www.malaymail.com/news/malaysia/2025/12/08/malaysians-swindled-out-of-rm27b-in-cyber-scams-in-just-11-months-police-data-reveals/201156",
-      "date": "2025-12-08",
-      "category": "Statistics",
-      "image": "../assets/news-1.png",
+      "slug": "the-ultimate-guide-to-spotting-scams-in-malaysia",
+      "title": "The Ultimate Guide to Spotting Scams in Malaysia",
+      "summary": "Learn how to identify common scam tactics targeting Malaysians — from Macau scams to love scams. Protect yourself before you lose money.",
+      "date": "2026-04-23",
+      "image": "../assets/news-1.webp",
       "content": {
-        "introduction": "The Royal Malaysia Police (PDRM) reported a staggering RM2.7 billion in losses from over 67,000 online crime cases recorded between January and November 2025. This marks a sharp increase from RM1.6 billion in 2024, highlighting a severe and accelerating escalation in digital fraud nationwide. Experts warn that the true figure could be as high as RM54 billion annually — roughly 3% of Malaysia's GDP — as an estimated 70% of victims never report the crimes to authorities.",
+        "introduction": "Scammers stole RM1.57 billion from Malaysians in 2024 alone. The tactics are getting smarter, the technology more convincing, and the psychological manipulation more ruthless. But here’s the truth: every scam has warning signs. This guide will help you recognize them before you become a victim.",
         "sections": [
           {
-            "title": "Scale of the Crisis",
-            "text": "A total of 67,735 cases were recorded in just 11 months of 2025, up from 35,368 cases in all of 2024. Telecommunications scams topped the list with 28,698 cases, followed by e-commerce fraud at 14,881 cases. Young adults aged 21–30 were the most affected demographic, while senior citizens remained the most financially vulnerable group.",
-            "red_flags": [
-              "Unsolicited calls from unknown numbers claiming to be from banks or government agencies",
-              "Requests to transfer money to a 'safe account' for investigation purposes",
-              "Online sellers asking for upfront payment with no verifiable track record",
-              "Investment opportunities promising unusually high and consistent returns"
-            ]
+            "title": "1. The Macau Scam",
+            "text": "What it is: A caller impersonates police, court officials, or government agencies. They claim you're involved in a crime and demand immediate payment to 'clear your name.'",
+            "red_flags": ["Caller insists on secrecy ('Don't tell anyone')", "Demands payment via bank transfer or cryptocurrency", "Threatens arrest or legal action", "Asks you to verify personal details over the phone"],
+            "what_to_do": "Hang up immediately. Real authorities never demand payment over the phone."
           },
           {
-            "title": "Financial Breakdown by Scam Type",
-            "text": "While telecommunications scams were most frequent in terms of case count, it was investment fraud that caused the single largest financial damage. Non-existent investment schemes accounted for RM1.37 billion across 9,296 cases — the highest loss in any single category. This was followed by telecommunications crimes at RM715.7 million, e-finance and phishing fraud at RM458.1 million, e-commerce fraud at RM123.7 million, and love scams at RM43.7 million."
+            "title": "2. Prize & Lottery Scams",
+            "text": "What it is: You receive a message claiming you've won a prize, lucky draw, or inheritance. To claim it, you must pay a 'processing fee' or provide personal information.",
+            "red_flags": ["You didn't enter any contest", "Suspicious domains like .tk, .xyz, or .ml", "Urgency language ('Claim within 24 hours')", "Requests for IC number, bank details, or TAC code"],
+            "what_to_do": "Verify directly with the official brand. Never click links in unsolicited prize messages."
           },
           {
-            "title": "AI-Powered Scams: A New Threat",
-            "text": "Authorities recorded over 450 cases of AI-powered attacks in 2025, including deepfake videos and voice cloning. In one documented case, a woman in Selangor lost RM5,000 after scammers used AI to perfectly mimic her employer's voice during a phone call. Deepfake videos of the Prime Minister and even the Malaysian Sultan were also circulated to promote fake investment schemes.",
-            "red_flags": [
-              "Video calls where the person's face or voice seems slightly unnatural",
-              "Unsolicited calls from a 'known' contact asking for urgent financial help",
-              "Investment promotions featuring well-known public figures via social media",
-              "Requests for Touch 'n Go reload codes or cryptocurrency as payment"
-            ]
+            "title": "3. Love Scams",
+            "text": "What it is: Scammers build emotional relationships online before asking for money, often pretending to be overseas or in a crisis.",
+            "red_flags": ["Moves the relationship very quickly", "Avoids video calls", "Claims to be overseas or facing emergencies", "Requests money via Western Union or cryptocurrency"],
+            "what_to_do": "Reverse image search their profile photo and never send money to someone you haven’t met in person."
           },
           {
-            "title": "Enforcement Actions",
-            "text": "Authorities have not been idle. In August 2025, a major raid on a commercial building in Bangsar South, Kuala Lumpur, resulted in 400 arrests at international scam call centres. A joint operation with Singapore and Hong Kong later that year dismantled transnational syndicates responsible for USD225 million in thefts. INTERPOL's HAECHI VI operation also recovered USD439 million globally, including Malaysia-linked cases.",
-            "what_to_do": "If you suspect you've been scammed, call the National Scam Response Centre (NSRC) immediately at 997. Time is critical — the sooner you report, the higher the chance of freezing the stolen funds before they are moved."
+            "title": "4. Job Scams",
+            "text": "What it is: Fake job offers that require upfront payment for training, equipment, or processing fees.",
+            "red_flags": ["Salary seems too good for minimal work", "No proper interview process", "Requests payment before starting", "Uses personal email instead of company domain"],
+            "what_to_do": "Research the company thoroughly. Legitimate employers never ask candidates to pay."
+          },
+          {
+            "title": "5. Phishing & Fake Banking Messages",
+            "text": "What it is: Messages that appear to come from your bank, asking you to verify your account through a link.",
+            "red_flags": ["Sent via SMS or WhatsApp instead of official apps", "URL does not match the bank's official domain", "Requests for passwords or TAC codes", "Contains spelling or grammar mistakes"],
+            "what_to_do": "Never click links in banking messages. Always use the official app or contact the bank directly."
           }
         ],
-        "conclusion": "The scale of Malaysia's online scam crisis in 2025 demands urgent, collective action. While authorities are actively making arrests and recovering funds, the speed at which syndicates operate means that prevention remains the most effective defense. Always verify before you trust — and when in doubt, use SkamGuard to analyze any suspicious message before you act."
+        "conclusion": "The best defense against scams is awareness. Understand the tactics, recognize the warning signs, and take a moment to verify before acting. If you're ever unsure, use SkamGuard to analyze a screenshot of the message and get a clear answer instantly."
       }
     },
     {
       "id": "article-002",
-      "slug": "ai-scams-are-getting-real-deepfakes-and-voice-cloning-hit-malaysia",
-      "title": "AI Scams Are Getting Real: Deepfakes and Voice Cloning Hit Malaysia",
-      "summary": "Scammers are now using AI-generated deepfake videos of Malaysian leaders and voice cloning technology to defraud victims. In one case, a Selangor woman lost RM5,000 after AI perfectly mimicked her employer's voice. Over 450 AI-powered scam cases were recorded in 2025.",
-      "source": "Malay Mail",
-      "source_url": "https://www.malaymail.com/news/malaysia/2025/08/04/ai-scams-are-getting-real-here-are-the-cases-happening-in-malaysia-that-you-should-know-about/183459",
-      "date": "2025-08-04",
-      "category": "AI Scam",
-      "image": "../assets/news-2.png",
+      "slug": "the-new-face-of-scams-in-malaysia-faster-smarter-and-harder-to-detect",
+      "title": "The New Face of Scams in Malaysia: Faster, Smarter, and Harder to Detect",
+      "summary": "Scams in Malaysia are evolving rapidly — becoming more convincing, targeted, and harder to detect. Here’s how modern scams work and why speed is now their biggest weapon.",
+      "date": "2026-04-20",
+      "image": "../assets/news-2.webp",
       "content": {
-        "introduction": "Malaysia has entered a new and dangerous phase of online fraud: scammers are now wielding artificial intelligence as their primary weapon. From deepfake videos of national leaders to real-time voice cloning over phone calls, AI-powered scams represented some of the most alarming cases of 2025. With over 450 confirmed AI-based attacks causing RM2.72 million in direct losses, authorities warn that these figures represent only the tip of the iceberg.",
+        "introduction": "Scams in Malaysia are no longer obvious. What used to be poorly written messages has evolved into highly convincing attacks that can fool almost anyone. Today’s scams are fast, targeted, and designed to feel real — and that’s exactly why they work.",
         "sections": [
           {
-            "title": "Voice Cloning: When You Can't Trust Your Own Ears",
-            "text": "In May 2025, a woman working at a shop in Selangor received repeated calls from someone who sounded exactly like her employer. The voice — recreated using AI voice cloning technology — requested urgent Touch 'n Go PIN codes worth RM5,000. She visited multiple convenience stores to purchase the codes, trusting completely in the familiar voice. When she finally reached her real employer through another channel, she discovered the call was a scam. Her employer's phone had been off the entire time.",
-            "red_flags": [
-              "A 'known' contact calling from an unfamiliar number with an urgent financial request",
-              "Requests for gift cards, Touch 'n Go codes, or cryptocurrency instead of bank transfers",
-              "Caller discourages you from calling back on a different number to verify",
-              "Unusual urgency or emotional pressure to act immediately without thinking"
-            ],
-            "what_to_do": "Always verify an unusual financial request through a separate, known channel — call back on the number you have saved, or use WhatsApp to text and confirm before taking any action."
+            "title": "Scams Are Designed, Not Sent",
+            "text": "Modern scams are carefully crafted experiences. Victims may receive a realistic bank alert, followed by a convincing website and even a phone call from someone posing as an authority."
           },
           {
-            "title": "Deepfake Videos: Fake Endorsements from Real Faces",
-            "text": "Scammers have produced highly convincing AI-generated deepfake videos featuring Prime Minister Datuk Seri Anwar Ibrahim, tycoon Tan Sri Robert Kuok, Capital A CEO Tan Sri Tony Fernandes, and even His Majesty Sultan Ismail, King of Malaysia — all falsely appearing to endorse fake investment opportunities. In July 2025, the Johor Royal Press Office issued a formal public warning after a deepfake of the Sultan circulated on Facebook, promoting a fraudulent scheme. The palace confirmed the video was fabricated and reminded the public that impersonating the King is a serious criminal offence.",
-            "red_flags": [
-              "Investment promotions featuring videos of well-known politicians, royalty, or business leaders",
-              "Facial movements or lip-sync that looks slightly off or unnatural",
-              "Videos shared primarily via Facebook, TikTok, or WhatsApp groups — not official channels",
-              "No verifiable official source or verified social media account endorsing the investment"
-            ],
-            "what_to_do": "Before investing based on any video endorsement, verify directly on the public figure's official verified social media account or official government website. No legitimate investment will ever be promoted via a Facebook video of a public figure."
+            "title": "The Psychology Behind Every Scam",
+            "text": "Scammers combine fear, urgency, and trust to control decisions.",
+            "red_flags": ["Messages that demand immediate action", "Unexpected contact from 'authorities'", "Requests to keep things secret", "Unusual instructions outside normal procedures"]
           },
           {
-            "title": "Why AI Makes Scams Harder to Detect",
-            "text": "Traditional scam awareness training taught Malaysians to watch for broken English, suspicious phone numbers, and generic greetings. AI-powered scams eliminate many of these telltale signs. Voice cloning can replicate tone, accent, and speaking rhythm with startling accuracy. Deepfake videos can pass a casual viewing at a glance. As a result, even educated, tech-savvy individuals have fallen victim. A travel agent in Kuala Terengganu lost RM49,800 to an AI voice scam. An assistant manager from Bentong lost RM1.3 million in a phone scam that began with a single call claiming to be from a delivery company."
+            "title": "Why Investment Scams Are Growing",
+            "text": "Investment scams build trust over time by showing fake profits before blocking withdrawals.",
+            "red_flags": ["Guaranteed high returns", "Fake dashboards showing profits", "Withdrawal requires extra fees", "Unknown platforms or apps"]
           },
           {
-            "title": "What Authorities Are Doing",
-            "text": "PDRM's Commercial Crime Investigation Department (CCID) has flagged AI-powered scams as a top priority. Authorities have collaborated with telecommunications providers to implement call-blocking features and are working with social media platforms to remove deepfake content. However, the sheer speed at which AI-generated content can be produced and distributed means that public awareness remains the most important line of defense.",
-            "what_to_do": "Report suspected deepfake content directly to the platform (Facebook, TikTok, Instagram) and simultaneously lodge a report with CyberSecurity Malaysia at cybersecurity.my or call 1-300-88-2999."
+            "title": "Speed Is the Real Weapon",
+            "text": "Most scams succeed because they force quick decisions.",
+            "what_to_do": "Pause before acting. Always verify through official channels if something feels urgent."
           }
         ],
-        "conclusion": "AI has democratized scam production — what once required technical expertise can now be done with a few clicks and a short audio sample. The most powerful defense is a simple habit: pause, verify through a second channel, and never act on financial requests made under pressure. SkamGuard is built to help you do exactly that — analyze before you act."
+        "conclusion": "Scams today are no longer about tricking the careless — they are about rushing the careful. Before you click, reply, or transfer, take a moment to verify. Use SkamGuard to analyze suspicious messages before you act."
       }
     },
     {
       "id": "article-003",
-      "slug": "investment-fraud-losses-hit-rm1-47-billion-victims-trapped-in-fake-profit-platforms",
-      "title": "Investment Fraud Losses Hit RM1.47 Billion — Victims Trapped in Fake Profit Platforms",
-      "summary": "Investment scams caused RM1.47 billion in losses across 9,603 cases in 2025. Syndicates lure victims via social media into fake trading platforms where profits appear but withdrawals are blocked. Those aged 31–50 are most affected, with losses surging 73% from 2024.",
-      "source": "Malay Mail",
-      "source_url": "https://www.malaymail.com/news/malaysia/2026/04/18/investment-fraud-losses-hit-rm147b-police-say-victims-trapped-in-fake-profits-before-being-hit-with-hidden-fees/216719",
-      "date": "2026-04-18",
-      "category": "Investment Scam",
-      "image": "../assets/news-3.png",
+      "slug": "scam-losses-in-malaysia-continue-to-rise-heres-whats-changing-in-2026",
+      "title": "Scam Losses in Malaysia Continue to Rise — Here’s What’s Changing in 2026",
+      "summary": "Scam cases in Malaysia continue to increase in both scale and complexity. From AI-powered attacks to fake financial entities, here’s what’s driving the surge.",
+      "date": "2026-04-22",
+      "image": "../assets/news-3.webp",
       "content": {
-        "introduction": "Investment fraud in Malaysia has reached a record high, with losses surging to RM1.47 billion across 9,603 cases in 2025 — a 73% increase from RM848.6 million in 2024. The Royal Malaysia Police's Commercial Crime Investigation Department (CCID) has identified five main tactics used by syndicates, nearly all of which rely on social media as the primary recruitment channel. Behind these numbers are real Malaysians who lost their life savings, EPF funds, and retirement money.",
+        "introduction": "Scam activity in Malaysia continues to rise, with billions of ringgit lost each year. While awareness has improved, scammers are adapting faster using new technologies and more sophisticated strategies.",
         "sections": [
           {
-            "title": "How the Trap Is Set: Social Media to Fake Platforms",
-            "text": "Syndicates predominantly use Facebook and Instagram to advertise 'investment opportunities' — often featuring testimonials, screenshots of profits, and endorsements from fake 'professional traders.' Victims who express interest are moved to private WhatsApp or Telegram groups where they are added to what appears to be an active community of successful investors. They are then directed to a fake investment dashboard website or app that shows real-time 'profits' growing on their account.",
-            "red_flags": [
-              "Investment group added without prior contact or consent",
-              "Testimonial screenshots showing unrealistically consistent daily profits",
-              "Platform or app not listed on Apple App Store or Google Play officially",
-              "'Traders' who are always available and responsive at all hours"
-            ]
+            "title": "The Numbers Keep Growing",
+            "text": "Financial losses and scam cases continue increasing, with investment scams leading the trend."
           },
           {
-            "title": "The Hidden Fee Trap",
-            "text": "The most psychologically devastating phase of the scam begins when victims attempt to withdraw their money. Rather than simply stealing the initial deposit, syndicates show victims 'accumulated profits' — sometimes 3x or 5x their original investment — making them reluctant to withdraw small amounts. When they finally attempt a full withdrawal, they are told they must first pay a 'processing fee,' 'account activation charge,' 'overseas tax,' or 'government compliance fee' before funds can be released. Victims who have already invested RM10,000 will pay another RM3,000 in fees — and then another — in an attempt to recover what they believe is legitimately theirs.",
-            "red_flags": [
-              "Cannot withdraw funds without paying additional fees first",
-              "Fee amounts keep increasing after each payment",
-              "Customer 'support' becomes unresponsive after fees are paid",
-              "Platform URL changes or becomes inaccessible suddenly"
-            ],
-            "what_to_do": "Stop all payments immediately. Every additional payment you make is a new loss — no legitimate platform requires you to pay to withdraw your own money. Contact PDRM's CCID or file a report at ccid.rmp.gov.my."
+            "title": "More Strategic, More Targeted",
+            "text": "Scammers now target specific groups and build trust over time.",
+            "red_flags": ["Added to unknown investment groups", "Too many perfect testimonials", "Long conversations before asking money", "Pressure to invest more over time"]
           },
           {
-            "title": "Real Victim Stories",
-            "text": "In Terengganu, a 54-year-old lecturer lost RM172,170 after being lured into a cryptocurrency investment scheme by a woman he met on a dating app — the investment scam was layered on top of a love scam. In Pahang, an engineer separately lost a significant sum in a similar scheme. These are not isolated cases. Between January and March 2026 alone, 2,204 new investment scam cases were recorded, causing RM246.7 million in losses — proof that the crisis is accelerating, not slowing."
+            "title": "Technology Is Changing the Game",
+            "text": "AI tools like voice cloning and deepfakes are making scams more convincing.",
+            "red_flags": ["Familiar voice asking for money", "Public figures promoting investments", "Slightly unnatural audio or video", "Requests that avoid verification"]
           },
           {
-            "title": "Who Are the Victims?",
-            "text": "Victim profiles show those aged 31 to 50 are most affected, especially the 41–50 group. This demographic typically has more savings and greater financial aspirations, making them prime targets. Stock investments topped the number of cases, followed by cryptocurrency and gold schemes — reflecting syndicates' deliberate strategy to exploit popular investment trends. The rise of crypto scams using USDT (Tether) is particularly notable, as victims are instructed to send funds directly to syndicate digital wallets via unregulated platforms, making recovery nearly impossible.",
-            "what_to_do": "Before investing in any scheme, verify the company's licence on the Securities Commission Malaysia's website at sc.com.my/investor-alert. If the entity is not listed as a licensed operator, do not invest regardless of how convincing the testimonials appear."
+            "title": "Fake Entities on the Rise",
+            "text": "Many scams mimic real financial institutions using similar branding.",
+            "what_to_do": "Always verify companies through official sources before making any payment."
           }
         ],
-        "conclusion": "The RM1.47 billion figure represents only cases that were actually reported. With 70% of victims estimated to never report, the real scale of investment fraud in Malaysia could be many times larger. If you have received an investment offer via social media or messaging apps, use SkamGuard to analyze the message before you respond. Your first line of defense is verification — not regret."
+        "conclusion": "Scams in Malaysia are becoming more advanced and harder to detect. The best defense is real-time verification. Use SkamGuard to analyze suspicious messages instantly before taking action."
       }
     }
   ]

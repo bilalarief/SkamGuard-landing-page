@@ -18,23 +18,37 @@ const LoadingSpinner = () => (
   </div>
 );
 
-const HomePage = () => (
-  <>
-    <Navigation />
-    <main>
-      <Hero />
-      <Suspense fallback={<LoadingSpinner />}>
-        <PainPoints />
-        <MeetSkamGuard />
-        <Features />
-        <HowItWorks />
-        <FAQ />
-        <Blog />
-        <CTABanner />
-      </Suspense>
-    </main>
-  </>
-);
+const HomePage = () => {
+  React.useEffect(() => {
+    if (window.location.hash) {
+      const id = window.location.hash;
+      const element = document.querySelector(id);
+      if (element) {
+        setTimeout(() => {
+          element.scrollIntoView({ behavior: 'smooth' });
+        }, 100);
+      }
+    }
+  }, []);
+
+  return (
+    <>
+      <Navigation />
+      <main>
+        <Hero />
+        <Suspense fallback={<LoadingSpinner />}>
+          <PainPoints />
+          <MeetSkamGuard />
+          <Features />
+          <HowItWorks />
+          <FAQ />
+          <Blog />
+          <CTABanner />
+        </Suspense>
+      </main>
+    </>
+  );
+};
 
 const App = () => {
   return (
