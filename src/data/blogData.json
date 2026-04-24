@@ -2,6 +2,7 @@
   "articles": [
     {
       "id": "article-001",
+      "slug": "malaysians-lost-over-rm2-7-billion-to-online-scams-in-2025",
       "title": "Malaysians Lost Over RM2.7 Billion to Online Scams in 2025",
       "summary": "PDRM recorded 67,735 online crime cases from January to November 2025, with total losses exceeding RM2.7 billion — a sharp rise from RM1.6 billion in 2024. Telecommunications scams led with 28,698 cases, while investment fraud caused the highest financial damage at RM1.37 billion.",
       "source": "Malay Mail",
@@ -47,6 +48,7 @@
     },
     {
       "id": "article-002",
+      "slug": "ai-scams-are-getting-real-deepfakes-and-voice-cloning-hit-malaysia",
       "title": "AI Scams Are Getting Real: Deepfakes and Voice Cloning Hit Malaysia",
       "summary": "Scammers are now using AI-generated deepfake videos of Malaysian leaders and voice cloning technology to defraud victims. In one case, a Selangor woman lost RM5,000 after AI perfectly mimicked her employer's voice. Over 450 AI-powered scam cases were recorded in 2025.",
       "source": "Malay Mail",
@@ -94,6 +96,7 @@
     },
     {
       "id": "article-003",
+      "slug": "investment-fraud-losses-hit-rm1-47-billion-victims-trapped-in-fake-profit-platforms",
       "title": "Investment Fraud Losses Hit RM1.47 Billion — Victims Trapped in Fake Profit Platforms",
       "summary": "Investment scams caused RM1.47 billion in losses across 9,603 cases in 2025. Syndicates lure victims via social media into fake trading platforms where profits appear but withdrawals are blocked. Those aged 31–50 are most affected, with losses surging 73% from 2024.",
       "source": "Malay Mail",

@@ -10,12 +10,12 @@ const getImageUrl = (path: string) => {
 };
 
 const BlogDetail = () => {
-  const { id } = useParams();
-  const article = blogData.articles.find((a) => a.id === id);
+  const { slug } = useParams();
+  const article = blogData.articles.find((a) => a.slug === slug);
 
   useEffect(() => {
     window.scrollTo(0, 0);
-  }, [id]);
+  }, [slug]);
 
   if (!article) {
     return (

@@ -27,7 +27,7 @@ const Blog = () => {
           {blogData.articles.map((post) => (
             <Link
               key={post.id}
-              to={`/blog/${post.id}`}
+              to={`/blog/${post.slug}`}
               className="group flex flex-col h-full bg-white transition-all duration-300"
             >
               {/* Image Container */}
