@@ -18,7 +18,7 @@ FROM nginx:stable-alpine
 COPY --from=build-stage /app/dist /usr/share/nginx/html
 
 # Copy a custom nginx configuration to handle SPA routing
-COPY nginx.conf /etc/nginx/conf.d/default.conf
+COPY nginx.conf
 
 EXPOSE 8080
 
