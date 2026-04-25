@@ -4,13 +4,11 @@ const CTABanner = () => {
   return (
     <section id="cta" className="px-4 sm:px-6 lg:px-8 py-12">
       <div className="max-w-6xl mx-auto bg-[#2AABEE] rounded-3xl py-16 px-6 sm:px-12 text-center relative overflow-hidden">
-        {/* Background watermark shield */}
-        <div className="absolute right-8 top-1/2 -translate-y-1/2 opacity-10">
-          <svg width="200" height="200" viewBox="0 0 24 24" fill="white">
-            <path d="M12 2L3 7V12C3 17.55 6.84 22.74 12 24C17.16 22.74 21 17.55 21 12V7L12 2Z"/>
-          </svg>
-        </div>
-
+        <img
+        src="/cta-banner/image.png"
+        alt="cta banner"
+        className="absolute top-0 left-0 right-0 z-0"
+        />
         <div className="relative z-10 text-center">
           <h2 className="text-3xl sm:text-4xl lg:text-5xl font-semibold text-slate-50 leading-[1.2] lg:leading-[1.15] tracking-[-0.02em] mb-4">
             RM1.57 billion lost last year.

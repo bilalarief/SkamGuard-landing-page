@@ -56,7 +56,7 @@ const FAQ = () => {
             <h2 className="text-3xl sm:text-4xl lg:text-5xl font-medium text-[#333333] leading-[1.2] lg:leading-[1.15] tracking-[-0.02em]">
               Frequently Ask
               <br className="hidden sm:block" />
-              Question
+              {" "}Question
             </h2>
           </div>
 
@@ -71,7 +71,7 @@ const FAQ = () => {
                     className="w-full flex items-center justify-between py-6 text-left group transition-all"
                     aria-expanded={isOpen}
                   >
-                    <h3 className={`text-lg font-semibold transition-colors duration-300 'text-[#333333]'}`}>
+                    <h3 className="md:text-lg lg:text-xl text-md font-semibold transition-colors duration-300 text-[#333333]">
                       {item.question}
                     </h3>
                     <div className={`transition-transform duration-300 ${isOpen ? 'rotate-180' : ''}`}>

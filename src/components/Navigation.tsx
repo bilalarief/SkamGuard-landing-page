@@ -56,6 +56,8 @@ const Navigation = () => {
     if (location.pathname !== "/") {
       navigate(`/#${id}`);
     } else {
+      window.history.pushState(null, "", target);
+      setActiveSection(id);
       const element = document.getElementById(id);
       if (element) {
         element.scrollIntoView({ behavior: "smooth" });
