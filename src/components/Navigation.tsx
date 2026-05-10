@@ -108,7 +108,7 @@ const Navigation = () => {
         className="flex items-center gap-2 px-3 sm:px-4 py-2 text-xs sm:text-sm font-medium text-gray-700 bg-white border border-gray-200 rounded-xl hover:bg-gray-100 transition-all shadow-sm"
       >
         <Languages className="w-4 h-4 sm:w-5 sm:h-5 text-gray-600" />
-        <span className="uppercase font-semibold">{currentLanguage}</span>
+        <span className="uppercase font-semibold">{currentLanguage === "ms" ? "BM" : currentLanguage}</span>
         <ChevronDown className="w-3.5 h-3.5 sm:w-4 sm:h-4 text-gray-400" />
       </button>
 
