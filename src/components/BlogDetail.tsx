@@ -1,4 +1,5 @@
 import { useParams, Link } from 'react-router-dom';
+import { useTranslation } from 'react-i18next';
 import blogData from '../data/blogData.json';
 import CTABanner from './CTABanner';
 import Blog from './Blog';
@@ -7,8 +8,9 @@ import { useEffect, useState } from 'react';
 
 
 const BlogDetail = () => {
+  const { t, i18n } = useTranslation();
   const { slug } = useParams();
-  const article = blogData.articles.find((a) => a.slug === slug);
+  const article = blogData.articles.find((a: any) => a.slug === slug);
   const [isShareOpen, setIsShareOpen] = useState(false);
   const [isCopied, setIsCopied] = useState(false);
 
@@ -25,16 +27,19 @@ const BlogDetail = () => {
   if (!article) {
     return (
       <div className="min-h-screen flex flex-col items-center justify-center bg-white p-6">
-        <h1 className="text-2xl font-bold text-gray-900 mb-4">Article Not Found</h1>
+        <h1 className="text-2xl font-bold text-gray-900 mb-4">{t("blog.not_found")}</h1>
         <Link to="/" className="text-[#2AABEE] hover:underline font-medium">
-          Back to Home
+          {t("blog.back")}
         </Link>
       </div>
     );
   }
 
+  const currentLang = i18n.language.startsWith('ms') ? 'ms' : 'en';
+  const content = article[currentLang] || article['en'];
+
   const shareUrl = encodeURIComponent(window.location.href);
-  const shareTitle = encodeURIComponent(article.title);
+  const shareTitle = encodeURIComponent(content.title);
 
   return (
     <div className="min-h-screen bg-white">
@@ -46,10 +51,10 @@ const BlogDetail = () => {
           <div className="grid lg:grid-cols-[1fr_1fr] gap-12 lg:gap-16 items-start mb-20">
             <div>
               <h1 className="text-3xl sm:text-4xl lg:text-5xl font-semibold text-[#333333] leading-[1.15] tracking-[-0.02em] mb-6">
-                {article.title}
+                {content.title}
               </h1>
               <p className="text-base font-light text-[#333333] leading-relaxed mb-8">
-                {article.summary}
+                {content.summary}
               </p>
               
               <button 
@@ -59,14 +64,14 @@ const BlogDetail = () => {
                 <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
                   <path d="M4 12v8a2 2 0 002 2h12a2 2 0 002-2v-8m-12 0l4-4m0 0l4 4m-4-4v12" />
                 </svg>
-                Share
+                {t("blog.share")}
               </button>
             </div>
             
             <div className="bg-[#EDF1F7] rounded-3xl overflow-hidden aspect-[4/3] lg:aspect-auto lg:h-[450px]">
               <img 
                 src={article.image} 
-                alt={article.title} 
+                alt={content.title} 
                 className="w-full h-full object-cover"
               />
             </div>
@@ -75,12 +80,12 @@ const BlogDetail = () => {
           {/* Article Body */}
           <div className="max-w-3xl mx-auto mb-32">
             <div className="prose prose-lg prose-slate max-w-none">
-              <h2 className="text-2xl font-semibold text-[#333333] mb-6">Introduction</h2>
+              <h2 className="text-2xl font-semibold text-[#333333] mb-6">{t("blog.intro")}</h2>
               <p className="text-base font-normal text-[#333333] leading-relaxed mb-12">
-                {article.content.introduction}
+                {content.content.introduction}
               </p>
 
-              {article.content.sections.map((section, idx) => (
+              {content.content.sections.map((section: any, idx: number) => (
                 <div key={idx} className="mb-12">
                   <h2 className="text-2xl font-semibold text-[#333333] mb-6">{section.title}</h2>
                   <p className="text-base font-normal text-[#333333] leading-relaxed mb-6 italic">
@@ -89,9 +94,9 @@ const BlogDetail = () => {
                   
                   {section.red_flags && (
                     <div className="bg-gray-50 rounded-2xl p-8 mb-6">
-                      <h4 className="text-sm font-bold text-gray-900 uppercase tracking-wider mb-4">Red Flags:</h4>
+                      <h4 className="text-sm font-bold text-gray-900 uppercase tracking-wider mb-4">{t("blog.red_flags")}</h4>
                       <ul className="space-y-3">
-                        {section.red_flags.map((flag, fIdx) => (
+                        {section.red_flags.map((flag: string, fIdx: number) => (
                           <li key={fIdx} className="flex items-start gap-3 text-[16px] text-gray-700">
                             <span className="text-[#2AABEE] mt-1">•</span>
                             {flag}
@@ -103,16 +108,16 @@ const BlogDetail = () => {
                   
                   {section.what_to_do && (
                     <p className="text-[16px] text-gray-700 font-medium">
-                      <span className="text-gray-900 font-bold">What to do: </span>
+                      <span className="text-gray-900 font-bold">{t("blog.what_to_do")} </span>
                       {section.what_to_do}
                     </p>
                   )}
                 </div>
               ))}
 
-              <h2 className="text-2xl font-semibold text-[#333333] mb-4">Conclusion</h2>
+              <h2 className="text-2xl font-semibold text-[#333333] mb-4">{t("blog.conclusion")}</h2>
               <p className="text-[17px] font-light text-[#333333] leading-relaxed">
-                {article.content.conclusion}
+                {content.content.conclusion}
               </p>
             </div>
           </div>
@@ -135,7 +140,7 @@ const BlogDetail = () => {
             onClick={(e) => e.stopPropagation()}
           >
             <div className="flex justify-between items-center mb-6">
-              <h3 className="text-xl font-bold text-gray-900">Share Article</h3>
+              <h3 className="text-xl font-bold text-gray-900">{t("blog.share_title")}</h3>
               <button 
                 onClick={() => setIsShareOpen(false)}
                 className="p-2 hover:bg-gray-100 rounded-full transition-colors"
@@ -217,14 +222,14 @@ const BlogDetail = () => {
                   <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
                     <path d="M20 6L9 17l-5-5" />
                   </svg>
-                  Copied!
+                  {t("blog.copied")}
                 </>
               ) : (
                 <>
                   <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
                     <path d="M8 5H6a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2v-1M8 5a2 2 0 002 2h2a2 2 0 002-2M8 5a2 2 0 012-2h2a2 2 0 012 2m0 0h2a2 2 0 012 2v3m2 4H10m0 0l3-3m-3 3l3 3" />
                   </svg>
-                  Copy Link
+                  {t("blog.copy_link")}
                 </>
               )}
             </button>

@@ -3,111 +3,215 @@
     {
       "id": "article-001",
       "slug": "the-ultimate-guide-to-spotting-scams-in-malaysia",
-      "title": "The Ultimate Guide to Spotting Scams in Malaysia",
-      "summary": "Learn how to identify common scam tactics targeting Malaysians — from Macau scams to love scams. Protect yourself before you lose money.",
       "date": "2026-04-23",
       "image": "../blog/news-1.png",
-      "content": {
-        "introduction": "Scammers stole RM1.57 billion from Malaysians in 2024 alone. The tactics are getting smarter, the technology more convincing, and the psychological manipulation more ruthless. But here’s the truth: every scam has warning signs. This guide will help you recognize them before you become a victim.",
-        "sections": [
-          {
-            "title": "1. The Macau Scam",
-            "text": "What it is: A caller impersonates police, court officials, or government agencies. They claim you're involved in a crime and demand immediate payment to 'clear your name.'",
-            "red_flags": ["Caller insists on secrecy ('Don't tell anyone')", "Demands payment via bank transfer or cryptocurrency", "Threatens arrest or legal action", "Asks you to verify personal details over the phone"],
-            "what_to_do": "Hang up immediately. Real authorities never demand payment over the phone."
-          },
-          {
-            "title": "2. Prize & Lottery Scams",
-            "text": "What it is: You receive a message claiming you've won a prize, lucky draw, or inheritance. To claim it, you must pay a 'processing fee' or provide personal information.",
-            "red_flags": ["You didn't enter any contest", "Suspicious domains like .tk, .xyz, or .ml", "Urgency language ('Claim within 24 hours')", "Requests for IC number, bank details, or TAC code"],
-            "what_to_do": "Verify directly with the official brand. Never click links in unsolicited prize messages."
-          },
-          {
-            "title": "3. Love Scams",
-            "text": "What it is: Scammers build emotional relationships online before asking for money, often pretending to be overseas or in a crisis.",
-            "red_flags": ["Moves the relationship very quickly", "Avoids video calls", "Claims to be overseas or facing emergencies", "Requests money via Western Union or cryptocurrency"],
-            "what_to_do": "Reverse image search their profile photo and never send money to someone you haven’t met in person."
-          },
-          {
-            "title": "4. Job Scams",
-            "text": "What it is: Fake job offers that require upfront payment for training, equipment, or processing fees.",
-            "red_flags": ["Salary seems too good for minimal work", "No proper interview process", "Requests payment before starting", "Uses personal email instead of company domain"],
-            "what_to_do": "Research the company thoroughly. Legitimate employers never ask candidates to pay."
-          },
-          {
-            "title": "5. Phishing & Fake Banking Messages",
-            "text": "What it is: Messages that appear to come from your bank, asking you to verify your account through a link.",
-            "red_flags": ["Sent via SMS or WhatsApp instead of official apps", "URL does not match the bank's official domain", "Requests for passwords or TAC codes", "Contains spelling or grammar mistakes"],
-            "what_to_do": "Never click links in banking messages. Always use the official app or contact the bank directly."
-          }
-        ],
-        "conclusion": "The best defense against scams is awareness. Understand the tactics, recognize the warning signs, and take a moment to verify before acting. If you're ever unsure, use SkamGuard to analyze a screenshot of the message and get a clear answer instantly."
+      "en": {
+        "title": "The Ultimate Guide to Spotting Scams in Malaysia",
+        "summary": "Learn how to identify common scam tactics targeting Malaysians — from Macau scams to love scams. Protect yourself before you lose money.",
+        "content": {
+          "introduction": "Scammers stole RM1.57 billion from Malaysians in 2024 alone. The tactics are getting smarter, the technology more convincing, and the psychological manipulation more ruthless. But here’s the truth: every scam has warning signs. This guide will help you recognize them before you become a victim.",
+          "sections": [
+            {
+              "title": "1. The Macau Scam",
+              "text": "What it is: A caller impersonates police, court officials, or government agencies. They claim you're involved in a crime and demand immediate payment to 'clear your name.'",
+              "red_flags": ["Caller insists on secrecy ('Don't tell anyone')", "Demands payment via bank transfer or cryptocurrency", "Threatens arrest or legal action", "Asks you to verify personal details over the phone"],
+              "what_to_do": "Hang up immediately. Real authorities never demand payment over the phone."
+            },
+            {
+              "title": "2. Prize & Lottery Scams",
+              "text": "What it is: You receive a message claiming you've won a prize, lucky draw, or inheritance. To claim it, you must pay a 'processing fee' or provide personal information.",
+              "red_flags": ["You didn't enter any contest", "Suspicious domains like .tk, .xyz, or .ml", "Urgency language ('Claim within 24 hours')", "Requests for IC number, bank details, or TAC code"],
+              "what_to_do": "Verify directly with the official brand. Never click links in unsolicited prize messages."
+            },
+            {
+              "title": "3. Love Scams",
+              "text": "What it is: Scammers build emotional relationships online before asking for money, often pretending to be overseas or in a crisis.",
+              "red_flags": ["Moves the relationship very quickly", "Avoids video calls", "Claims to be overseas or facing emergencies", "Requests money via Western Union or cryptocurrency"],
+              "what_to_do": "Reverse image search their profile photo and never send money to someone you haven’t met in person."
+            },
+            {
+              "title": "4. Job Scams",
+              "text": "What it is: Fake job offers that require upfront payment for training, equipment, or processing fees.",
+              "red_flags": ["Salary seems too good for minimal work", "No proper interview process", "Requests payment before starting", "Uses personal email instead of company domain"],
+              "what_to_do": "Research the company thoroughly. Legitimate employers never ask candidates to pay."
+            },
+            {
+              "title": "5. Phishing & Fake Banking Messages",
+              "text": "What it is: Messages that appear to come from your bank, asking you to verify your account through a link.",
+              "red_flags": ["Sent via SMS or WhatsApp instead of official apps", "URL does not match the bank's official domain", "Requests for passwords or TAC codes", "Contains spelling or grammar mistakes"],
+              "what_to_do": "Never click links in banking messages. Always use the official app or contact the bank directly."
+            }
+          ],
+          "conclusion": "The best defense against scams is awareness. Understand the tactics, recognize the warning signs, and take a moment to verify before acting. If you're ever unsure, use SkamGuard to analyze a screenshot of the message and get a clear answer instantly."
+        }
+      },
+      "ms": {
+        "title": "Panduan Utama Mengesan Penipuan di Malaysia",
+        "summary": "Ketahui cara mengenal pasti taktik penipuan biasa yang menyasarkan rakyat Malaysia — daripada Macau scam hingga penipuan cinta. Lindungi diri anda sebelum anda kerugian wang.",
+        "content": {
+          "introduction": "Penipu mencuri RM1.57 bilion daripada rakyat Malaysia pada tahun 2024 sahaja. Taktik mereka semakin bijak, teknologi semakin meyakinkan, dan manipulasi psikologi semakin kejam. Tetapi inilah kebenarannya: setiap penipuan mempunyai tanda amaran. Panduan ini akan membantu anda mengenalinya sebelum anda menjadi mangsa.",
+          "sections": [
+            {
+              "title": "1. Macau Scam",
+              "text": "Apa itu: Pemanggil menyamar sebagai polis, pegawai mahkamah, atau agensi kerajaan. Mereka mendakwa anda terlibat dalam jenayah dan menuntut bayaran segera untuk 'membersihkan nama' anda.",
+              "red_flags": ["Pemanggil berkeras untuk merahsiakan perkara ini ('Jangan beritahu sesiapa')", "Menuntut bayaran melalui pindahan bank atau mata wang kripto", "Mengugut dengan tangkapan atau tindakan undang-undang", "Meminta anda mengesahkan butiran peribadi melalui telefon"],
+              "what_to_do": "Letakkan telefon serta-merta. Pihak berkuasa sebenar tidak pernah menuntut bayaran melalui telefon."
+            },
+            {
+              "title": "2. Penipuan Hadiah & Loteri",
+              "text": "Apa itu: Anda menerima mesej yang mendakwa anda telah memenangi hadiah, cabutan bertuah, atau harta pusaka. Untuk menuntutnya, anda mesti membayar 'yuran pemprosesan' atau memberikan maklumat peribadi.",
+              "red_flags": ["Anda tidak menyertai sebarang peraduan", "Domain yang mencurigakan seperti .tk, .xyz, atau .ml", "Bahasa yang mendesak ('Tuntut dalam masa 24 jam')", "Permintaan untuk nombor IC, butiran bank, atau kod TAC"],
+              "what_to_do": "Sahkan terus dengan jenama rasmi. Jangan sekali-kali klik pautan dalam mesej hadiah yang tidak diminta."
+            },
+            {
+              "title": "3. Love Scams (Penipuan Cinta)",
+              "text": "Apa itu: Penipu membina hubungan emosi dalam talian sebelum meminta wang, sering menyamar sebagai orang luar negara atau dalam krisis.",
+              "red_flags": ["Membina hubungan dengan sangat cepat", "Mengelak panggilan video", "Mendakwa berada di luar negara atau menghadapi kecemasan", "Meminta wang melalui Western Union atau mata wang kripto"],
+              "what_to_do": "Lakukan carian imej profil mereka dan jangan sesekali menghantar wang kepada seseorang yang belum anda temui secara bersemuka."
+            },
+            {
+              "title": "4. Penipuan Pekerjaan",
+              "text": "Apa itu: Tawaran kerja palsu yang memerlukan bayaran pendahuluan untuk latihan, peralatan, atau yuran pemprosesan.",
+              "red_flags": ["Gaji nampak terlalu bagus untuk kerja yang minima", "Tiada proses temu duga yang betul", "Meminta bayaran sebelum mula bekerja", "Menggunakan e-mel peribadi dan bukannya domain syarikat"],
+              "what_to_do": "Selidik syarikat tersebut dengan teliti. Majikan yang sah tidak pernah meminta calon untuk membayar."
+            },
+            {
+              "title": "5. Phishing & Mesej Perbankan Palsu",
+              "text": "Apa itu: Mesej yang nampak seperti datang dari bank anda, meminta anda mengesahkan akaun anda melalui pautan.",
+              "red_flags": ["Dihantar melalui SMS atau WhatsApp dan bukannya aplikasi rasmi", "URL tidak sepadan dengan domain rasmi bank", "Permintaan untuk kata laluan atau kod TAC", "Mengandungi kesilapan ejaan atau tatabahasa"],
+              "what_to_do": "Jangan sesekali klik pautan dalam mesej perbankan. Sentiasa gunakan aplikasi rasmi atau hubungi bank secara terus."
+            }
+          ],
+          "conclusion": "Pertahanan terbaik terhadap penipuan adalah kesedaran. Fahami taktik, kenali tanda amaran, dan ambil masa untuk mengesahkan sebelum bertindak. Jika anda tidak pasti, gunakan SkamGuard untuk menganalisis tangkapan skrin mesej tersebut dan dapatkan jawapan yang jelas serta-merta."
+        }
       }
     },
     {
       "id": "article-002",
       "slug": "the-new-face-of-scams-in-malaysia-faster-smarter-and-harder-to-detect",
-      "title": "The New Face of Scams in Malaysia: Faster, Smarter, and Harder to Detect",
-      "summary": "Scams in Malaysia are evolving rapidly — becoming more convincing, targeted, and harder to detect. Here’s how modern scams work and why speed is now their biggest weapon.",
       "date": "2026-04-20",
       "image": "../blog/news-2.png",
-      "content": {
-        "introduction": "Scams in Malaysia are no longer obvious. What used to be poorly written messages has evolved into highly convincing attacks that can fool almost anyone. Today’s scams are fast, targeted, and designed to feel real — and that’s exactly why they work.",
-        "sections": [
-          {
-            "title": "Scams Are Designed, Not Sent",
-            "text": "Modern scams are carefully crafted experiences. Victims may receive a realistic bank alert, followed by a convincing website and even a phone call from someone posing as an authority."
-          },
-          {
-            "title": "The Psychology Behind Every Scam",
-            "text": "Scammers combine fear, urgency, and trust to control decisions.",
-            "red_flags": ["Messages that demand immediate action", "Unexpected contact from 'authorities'", "Requests to keep things secret", "Unusual instructions outside normal procedures"]
-          },
-          {
-            "title": "Why Investment Scams Are Growing",
-            "text": "Investment scams build trust over time by showing fake profits before blocking withdrawals.",
-            "red_flags": ["Guaranteed high returns", "Fake dashboards showing profits", "Withdrawal requires extra fees", "Unknown platforms or apps"]
-          },
-          {
-            "title": "Speed Is the Real Weapon",
-            "text": "Most scams succeed because they force quick decisions.",
-            "what_to_do": "Pause before acting. Always verify through official channels if something feels urgent."
-          }
-        ],
-        "conclusion": "Scams today are no longer about tricking the careless — they are about rushing the careful. Before you click, reply, or transfer, take a moment to verify. Use SkamGuard to analyze suspicious messages before you act."
+      "en": {
+        "title": "The New Face of Scams in Malaysia: Faster, Smarter, and Harder to Detect",
+        "summary": "Scams in Malaysia are evolving rapidly — becoming more convincing, targeted, and harder to detect. Here’s how modern scams work and why speed is now their biggest weapon.",
+        "content": {
+          "introduction": "Scams in Malaysia are no longer obvious. What used to be poorly written messages has evolved into highly convincing attacks that can fool almost anyone. Today’s scams are fast, targeted, and designed to feel real — and that’s exactly why they work.",
+          "sections": [
+            {
+              "title": "Scams Are Designed, Not Sent",
+              "text": "Modern scams are carefully crafted experiences. Victims may receive a realistic bank alert, followed by a convincing website and even a phone call from someone posing as an authority."
+            },
+            {
+              "title": "The Psychology Behind Every Scam",
+              "text": "Scammers combine fear, urgency, and trust to control decisions.",
+              "red_flags": ["Messages that demand immediate action", "Unexpected contact from 'authorities'", "Requests to keep things secret", "Unusual instructions outside normal procedures"]
+            },
+            {
+              "title": "Why Investment Scams Are Growing",
+              "text": "Investment scams build trust over time by showing fake profits before blocking withdrawals.",
+              "red_flags": ["Guaranteed high returns", "Fake dashboards showing profits", "Withdrawal requires extra fees", "Unknown platforms or apps"]
+            },
+            {
+              "title": "Speed Is the Real Weapon",
+              "text": "Most scams succeed because they force quick decisions.",
+              "what_to_do": "Pause before acting. Always verify through official channels if something feels urgent."
+            }
+          ],
+          "conclusion": "Scams today are no longer about tricking the careless — they are about rushing the careful. Before you click, reply, or transfer, take a moment to verify. Use SkamGuard to analyze suspicious messages before you act."
+        }
+      },
+      "ms": {
+        "title": "Wajah Baharu Penipuan di Malaysia: Lebih Cepat, Lebih Bijak, dan Sukar Dikesan",
+        "summary": "Penipuan di Malaysia berkembang pesat — menjadi lebih meyakinkan, bersasar dan sukar dikesan. Berikut adalah cara penipuan moden berfungsi dan mengapa kelajuan kini menjadi senjata terbesar mereka.",
+        "content": {
+          "introduction": "Penipuan di Malaysia tidak lagi nampak jelas. Apa yang dahulunya merupakan mesej yang ditulis dengan lemah telah berkembang menjadi serangan yang sangat meyakinkan yang boleh menipu hampir sesiapa sahaja. Penipuan hari ini pantas, bersasar, dan direka untuk nampak realiti — dan itulah sebabnya ia berkesan.",
+          "sections": [
+            {
+              "title": "Penipuan Direka, Bukan Sekadar Dihantar",
+              "text": "Penipuan moden adalah pengalaman yang direka dengan teliti. Mangsa mungkin menerima amaran bank yang realistik, diikuti oleh laman web yang meyakinkan dan juga panggilan telefon daripada seseorang yang menyamar sebagai pihak berkuasa."
+            },
+            {
+              "title": "Psikologi di Sebalik Setiap Penipuan",
+              "text": "Penipu menggabungkan ketakutan, kesegeraan, dan kepercayaan untuk mengawal keputusan.",
+              "red_flags": ["Mesej yang menuntut tindakan segera", "Hubungan yang tidak dijangka daripada 'pihak berkuasa'", "Permintaan untuk merahsiakan sesuatu", "Arahan luar biasa di luar prosedur biasa"]
+            },
+            {
+              "title": "Mengapa Penipuan Pelaburan Semakin Meningkat",
+              "text": "Penipuan pelaburan membina kepercayaan dari semasa ke semasa dengan menunjukkan keuntungan palsu sebelum menyekat pengeluaran.",
+              "red_flags": ["Jaminan pulangan tinggi", "Papan pemuka palsu yang menunjukkan keuntungan", "Pengeluaran memerlukan yuran tambahan", "Platform atau aplikasi yang tidak dikenali"]
+            },
+            {
+              "title": "Kelajuan Adalah Senjata Sebenar",
+              "text": "Kebanyakan penipuan berjaya kerana mereka memaksa keputusan dibuat dengan cepat.",
+              "what_to_do": "Berhenti seketika sebelum bertindak. Sentiasa sahkan melalui saluran rasmi jika sesuatu nampak mendesak."
+            }
+          ],
+          "conclusion": "Penipuan hari ini bukan lagi tentang menipu orang yang cuai — ia tentang mendesak orang yang berhati-hati. Sebelum anda klik, balas, atau pindah wang, ambil masa sejenak untuk mengesahkan. Gunakan SkamGuard untuk menganalisis mesej mencurigakan sebelum anda bertindak."
+        }
       }
     },
     {
       "id": "article-003",
       "slug": "scam-losses-in-malaysia-continue-to-rise-heres-whats-changing-in-2026",
-      "title": "Scam Losses in Malaysia Continue to Rise — Here’s What’s Changing in 2026",
-      "summary": "Scam cases in Malaysia continue to increase in both scale and complexity. From AI-powered attacks to fake financial entities, here’s what’s driving the surge.",
       "date": "2026-04-22",
       "image": "../blog/news-3.png",
-      "content": {
-        "introduction": "Scam activity in Malaysia continues to rise, with billions of ringgit lost each year. While awareness has improved, scammers are adapting faster using new technologies and more sophisticated strategies.",
-        "sections": [
-          {
-            "title": "The Numbers Keep Growing",
-            "text": "Financial losses and scam cases continue increasing, with investment scams leading the trend."
-          },
-          {
-            "title": "More Strategic, More Targeted",
-            "text": "Scammers now target specific groups and build trust over time.",
-            "red_flags": ["Added to unknown investment groups", "Too many perfect testimonials", "Long conversations before asking money", "Pressure to invest more over time"]
-          },
-          {
-            "title": "Technology Is Changing the Game",
-            "text": "AI tools like voice cloning and deepfakes are making scams more convincing.",
-            "red_flags": ["Familiar voice asking for money", "Public figures promoting investments", "Slightly unnatural audio or video", "Requests that avoid verification"]
-          },
-          {
-            "title": "Fake Entities on the Rise",
-            "text": "Many scams mimic real financial institutions using similar branding.",
-            "what_to_do": "Always verify companies through official sources before making any payment."
-          }
-        ],
-        "conclusion": "Scams in Malaysia are becoming more advanced and harder to detect. The best defense is real-time verification. Use SkamGuard to analyze suspicious messages instantly before taking action."
+      "en": {
+        "title": "Scam Losses in Malaysia Continue to Rise — Here’s What’s Changing in 2026",
+        "summary": "Scam cases in Malaysia continue to increase in both scale and complexity. From AI-powered attacks to fake financial entities, here’s what’s driving the surge.",
+        "content": {
+          "introduction": "Scam activity in Malaysia continues to rise, with billions of ringgit lost each year. While awareness has improved, scammers are adapting faster using new technologies and more sophisticated strategies.",
+          "sections": [
+            {
+              "title": "The Numbers Keep Growing",
+              "text": "Financial losses and scam cases continue increasing, with investment scams leading the trend."
+            },
+            {
+              "title": "More Strategic, More Targeted",
+              "text": "Scammers now target specific groups and build trust over time.",
+              "red_flags": ["Added to unknown investment groups", "Too many perfect testimonials", "Long conversations before asking money", "Pressure to invest more over time"]
+            },
+            {
+              "title": "Technology Is Changing the Game",
+              "text": "AI tools like voice cloning and deepfakes are making scams more convincing.",
+              "red_flags": ["Familiar voice asking for money", "Public figures promoting investments", "Slightly unnatural audio or video", "Requests that avoid verification"]
+            },
+            {
+              "title": "Fake Entities on the Rise",
+              "text": "Many scams mimic real financial institutions using similar branding.",
+              "what_to_do": "Always verify companies through official sources before making any payment."
+            }
+          ],
+          "conclusion": "Scams in Malaysia are becoming more advanced and harder to detect. The best defense is real-time verification. Use SkamGuard to analyze suspicious messages instantly before taking action."
+        }
+      },
+      "ms": {
+        "title": "Kerugian Penipuan di Malaysia Terus Meningkat — Inilah Yang Berubah pada 2026",
+        "summary": "Kes penipuan di Malaysia terus meningkat dari segi skala dan kompleksiti. Daripada serangan dikuasakan AI hingga entiti kewangan palsu, inilah yang mendorong lonjakan tersebut.",
+        "content": {
+          "introduction": "Aktiviti penipuan di Malaysia terus meningkat, dengan berbilion ringgit hilang setiap tahun. Walaupun kesedaran telah bertambah baik, penipu menyesuaikan diri dengan lebih cepat menggunakan teknologi baharu dan strategi yang lebih canggih.",
+          "sections": [
+            {
+              "title": "Angka Terus Meningkat",
+              "text": "Kerugian kewangan dan kes penipuan terus meningkat, dengan penipuan pelaburan menerajui trend tersebut."
+            },
+            {
+              "title": "Lebih Strategik, Lebih Bersasar",
+              "text": "Penipu kini menyasarkan kumpulan tertentu dan membina kepercayaan dari semasa ke semasa.",
+              "red_flags": ["Dimasukkan ke dalam kumpulan pelaburan yang tidak dikenali", "Terlalu banyak testimoni yang sempurna", "Perbualan panjang sebelum meminta wang", "Tekanan untuk melabur lebih banyak dari semasa ke semasa"]
+            },
+            {
+              "title": "Teknologi Mengubah Keadaan",
+              "text": "Alatan AI seperti pengklonan suara dan deepfakes menjadikan penipuan lebih meyakinkan.",
+              "red_flags": ["Suara yang dikenali meminta wang", "Tokoh awam mempromosikan pelaburan", "Audio atau video yang sedikit tidak semula jadi", "Permintaan yang mengelak pengesahan"]
+            },
+            {
+              "title": "Entiti Palsu Semakin Meningkat",
+              "text": "Banyak penipuan meniru institusi kewangan sebenar menggunakan penjenamaan yang serupa.",
+              "what_to_do": "Sentiasa sahkan syarikat melalui sumber rasmi sebelum membuat sebarang pembayaran."
+            }
+          ],
+          "conclusion": "Penipuan di Malaysia menjadi lebih maju dan sukar dikesan. Pertahanan terbaik adalah pengesahan masa nyata. Gunakan SkamGuard untuk menganalisis mesej mencurigakan serta-merta sebelum mengambil tindakan."
+        }
       }
     }
   ]

@@ -1,0 +1,85 @@
+{
+  "nav": {
+    "home": "Utama",
+    "about": "Tentang Kami",
+    "blog": "Blog & Media"
+  },
+  "hero": {
+    "title": "Hentikan penipu sebelum anda kerugian walaupun satu ringgit",
+    "subtitle": "Muat naik tangkapan skrin sebarang mesej mencurigakan. Dapatkan laporan risiko dalam beberapa saat — sebelum anda klik, balas, atau pindah wang. Dibina untuk rakyat Malaysia, dikuasakan oleh AI.",
+    "cta": "Analisis Mesej Sekarang",
+    "footer": "Percuma. Tiada pendaftaran diperlukan. Berfungsi pada WhatsApp, SMS, dan Telegram."
+  },
+  "features": {
+    "label": "Ciri-ciri",
+    "title": "Ciri-ciri hebat untuk pengesanan penipuan segera",
+    "subtitle": "Segalanya yang anda perlukan untuk mengesahkan mesej, pautan, dan nombor di satu tempat.",
+    "f1_title": "Analisis Tangkapan Skrin Pintar",
+    "f1_text": "Tiada taip. Tiada salin pautan. Hanya petik dan muat naik. SkamGuard membaca segalanya dengan serta-merta.",
+    "f2_title": "Kepintaran Penipuan Khusus Malaysia",
+    "f2_text": "Semakan silang terhadap pangkalan data corak penipuan Malaysia, taktik, dan nombor penipu yang dikenali. Ia tahu helah tempatan. \"Macau Scam,\" notis LHDN palsu, penipuan cinta dalam Bahasa Malaysia jika ia mensasarkan rakyat Malaysia, SkamGuard tahu segalanya.",
+    "f3_title": "Pengesahan Tiga Lapisan",
+    "f3_text": "Setiap mesej diperiksa dalam tiga cara: analisis kandungan, imbasan keselamatan URL, dan carian nombor telefon. Tiada yang terlepas. Jika mesej kelihatan okey tetapi pautan berniat jahat, anda akan tahu. Jika nombor bersih tetapi kata-katanya mencurigakan, anda akan tahu.",
+    "f4_title": "Pelan Tindakan Jelas",
+    "f4_text": "Direka untuk semua rakyat Malaysia, tanpa mengira usia atau celik teknologi. Jika nenek anda boleh menggunakannya, sesiapa pun boleh."
+  },
+  "how_it_works": {
+    "label": "Cara Ia Berfungsi",
+    "title": "Tiga langkah. Sepuluh saat. Sifar risiko.",
+    "s1_title": "Muat naik tangkapan skrin anda",
+    "s1_text": "Tampal atau seret sebarang imej mesej mencurigakan. Berfungsi pada telefon bimbit dan komputer.",
+    "s2_title": "AI menganalisis serta-merta",
+    "s2_text": "SkamGuard memeriksa mesej, mengesahkan URL, mencari nombor telefon, dan mengimbas corak penipuan secara serentak.",
+    "s3_title": "Dapatkan laporan risiko anda",
+    "s3_text": "Lihat skor risiko anda (0–100), petanda amaran yang dikenal pasti, jenis penipuan, dan tindakan seterusnya. Dalam Bahasa Malaysia dan Inggeris."
+  },
+  "pain_points": {
+    "label": "Masalah",
+    "title": "Anda tahu ada sesuatu yang tidak kena tetapi anda tidak pasti",
+    "subtitle": "Dan apabila anda menyedarinya, segalanya sudah terlambat",
+    "c1_text": "Hadiah WhatsApp itu. Panggilan bank \"segera\". Tawaran kerja yang terlalu menarik.",
+    "c2_text": "Anda teragak-agak. Anda ambil tangkapan skrin. Anda Google nombor tersebut. Tetapi penipu mengharapkan kelambatan dan keraguan anda.",
+    "c3_text": "Rakyat Malaysia kerugian RM2.7 bilion akibat penipuan dalam talian dalam tempoh 11 bulan pertama 2025. Penipuan pelaburan sahaja menyumbang RM1.47 bilion mangsa yang terpedaya dengan keuntungan palsu sebelum dikenakan yuran tersembunyi yang tidak pernah mereka jangkakan."
+  },
+  "faq": {
+    "label": "Soalan",
+    "title": "Soalan Lazim",
+    "q1": "Adakah data saya selamat?",
+    "a1": "Ya. Tangkapan skrin anda diproses dengan selamat dan tidak disimpan secara kekal. Kami tidak menjual atau berkongsi data anda dengan sesiapa pun.",
+    "q2": "Adakah ia berfungsi untuk penipuan dalam Bahasa Malaysia?",
+    "a2": "Sudah tentu. SkamGuard dilatih berdasarkan corak penipuan Malaysia, termasuk frasa Bahasa Malaysia biasa yang digunakan oleh penipu.",
+    "q3": "Bagaimana jika penipuan itu belum ada dalam pangkalan data?",
+    "a3": "SkamGuard menggunakan AI untuk mengesan taktik penipuan — bukan sekadar penipuan yang sudah diketahui. Walaupun mesej itu baru, ia dapat mengesan bahasa yang mendesak, dakwaan pihak berkuasa palsu, dan pautan yang mencurigakan.",
+    "q4": "Bolehkah saya menggunakan ini secara percuma?",
+    "a4": "Ya. SkamGuard adalah percuma untuk kegunaan peribadi dengan had harian. Pelan premium untuk semakan tanpa had akan datang tidak lama lagi.",
+    "q5": "Apakah perbezaannya dengan hanya mencari nombor di Google?",
+    "a5": "Google tidak akan menganalisis kandungan mesej, memeriksa keselamatan URL, atau memberikan skor risiko. SkamGuard melakukan ketiga-tiganya sekaligus — dan ia dilatih khusus untuk penipuan di Malaysia.",
+    "q6": "Bagaimana jika saya tidak mahir teknologi?",
+    "a6": "Itulah sebabnya kami membinanya. Hanya muat naik tangkapan skrin. Selebihnya adalah automatik."
+  },
+  "cta_banner": {
+    "title": "RM1.57 bilion kerugian tahun lepas. Jangan jadi mangsa seterusnya.",
+    "subtitle": "SkamGuard memberikan anda satu perkara yang paling dibenci oleh penipu: masa untuk berfikir sebelum anda bertindak.",
+    "button": "Lindungi Diri Anda Sekarang"
+  },
+  "about": {
+    "label": "Penyelesaian",
+    "title": "Kenali SkamGuard: Pengesan Penipuan Segera Anda",
+    "text": "SkamGuard adalah pertahanan masa nyata anda terhadap penipuan dalam talian. Hanya muat naik tangkapan skrin mesej mencurigakan dan dapatkan laporan risiko terperinci dalam beberapa saat. Tiada tekaan. Tiada Googling. Tiada panik. Hanya jawapan yang jelas apabila anda sangat memerlukannya."
+  },
+  "blog": {
+    "label": "Blog",
+    "title": "Ketahui cara mengesan penipuan sebelum ia berlaku",
+    "read_more": "Baca Lagi",
+    "back": "Kembali ke Laman Utama",
+    "intro": "Pengenalan",
+    "conclusion": "Kesimpulan",
+    "red_flags": "Petanda Amaran:",
+    "what_to_do": "Apa yang perlu dilakukan:",
+    "not_found": "Artikel Tidak Dijumpai",
+    "share_title": "Kongsi Artikel",
+    "share": "Kongsi",
+    "copied": "Disalin!",
+    "copy_link": "Salin Pautan"
+  }
+}

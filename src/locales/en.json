@@ -1,0 +1,85 @@
+{
+  "nav": {
+    "home": "Home",
+    "about": "About Us",
+    "blog": "Blog & Media"
+  },
+  "hero": {
+    "title": "Stop scammers before you lose a single ringgit",
+    "subtitle": "Upload a screenshot of any suspicious message. Get a risk report in seconds — before you click, reply, or transfer. Built for Malaysians, powered by AI.",
+    "cta": "Analyze a Message Now",
+    "footer": "Free. No signup required. Works on WhatsApp, SMS, and Telegram."
+  },
+  "features": {
+    "label": "Features",
+    "title": "Powerful features for instant scam detection",
+    "subtitle": "Everything you need to verify messages, links, and numbers in one place.",
+    "f1_title": "Smart Screenshot Analysis",
+    "f1_text": "No typing. No copying links. Just snap and upload. SkamGuard reads everything instantly.",
+    "f2_title": "Malaysia-Specific Scam Intelligence",
+    "f2_text": "Cross-checks against a database of Malaysian scam patterns, tactics, and known scammer numbers. It knows the local tricks. \"Macau Scam,\" fake LHDN notices, love scams in Bahasa Malaysia if it's targeting Malaysians, SkamGuard knows it.",
+    "f3_title": "Triple-Layer Verification",
+    "f3_text": "Every message is checked three ways: content analysis, URL safety scan, and phone number lookup. Nothing slips through. If the message seems fine but the link is malicious, you'll know. If the number is clean but the wording is suspicious, you'll know.",
+    "f4_title": "Clear Action Plan",
+    "f4_text": "Designed for all Malaysians, regardless of age or tech literacy. If your grandmother can use it, anyone can."
+  },
+  "how_it_works": {
+    "label": "How It Works",
+    "title": "Three steps. Ten seconds. Zero risk.",
+    "s1_title": "Upload your screenshot",
+    "s1_text": "Paste or drag any suspicious message image. Works on mobile and desktop.",
+    "s2_title": "AI analyzes instantly",
+    "s2_text": "SkamGuard checks the message, verifies URLs, looks up phone numbers, and scans for scam patterns all at once.",
+    "s3_title": "Get your risk report",
+    "s3_text": "See your risk score (0–100), identified red flags, scam type, and what to do next. In Bahasa Malaysia and English."
+  },
+  "pain_points": {
+    "label": "Problem",
+    "title": "You know something feels off but you're not sure",
+    "subtitle": "And by the time you figure it out, it's too late",
+    "c1_text": "That WhatsApp prize. The \"urgent\" bank call. The too-good job offer.",
+    "c2_text": "You hesitate. You screenshot it. You Google the number. But scammers count on this delay and on your doubt.",
+    "c3_text": "Malaysians lost RM2.7 billion to online scams in just 11 months of 2025. Investment fraud alone accounts for RM1.47 billion victims lured by fake profits before being hit with hidden fees they never saw coming."
+  },
+  "faq": {
+    "label": "Questions",
+    "title": "Frequently Asked Questions",
+    "q1": "Is my data safe?",
+    "a1": "Yes. Your screenshots are processed securely and never stored permanently. We don't sell or share your data with anyone.",
+    "q2": "Does it work for scams in Bahasa Malaysia?",
+    "a2": "Absolutely. SkamGuard is trained on Malaysian scam patterns, including common Bahasa Malaysia phrases used by scammers.",
+    "q3": "What if the scam isn't in the database yet?",
+    "a3": "SkamGuard uses AI to detect scam tactics — not just known scams. Even if the exact message is new, it can spot urgency language, fake authority claims, and suspicious links.",
+    "q4": "Can I use this for free?",
+    "a4": "Yes. SkamGuard is free for personal use with a daily limit. Premium plans for unlimited checks are coming soon.",
+    "q5": "How is this different from just Googling the number?",
+    "a5": "Google won't analyze the message content, check URL safety, or give you a risk score. SkamGuard does all three at once — and it's trained specifically on Malaysian scams.",
+    "q6": "What if I'm not tech-savvy?",
+    "a6": "That's exactly who we built this for. Just upload the screenshot. Everything else is automatic."
+  },
+  "cta_banner": {
+    "title": "RM1.57 billion lost last year. Don't be next.",
+    "subtitle": "SkamGuard gives you the one thing scammers hate most: time to think before you act.",
+    "button": "Protect Yourself Now"
+  },
+  "about": {
+    "label": "Solution",
+    "title": "Meet SkamGuard: Your Instant Scam Detector",
+    "text": "SkamGuard is your real-time defense against online scams. Just upload a screenshot of a suspicious message and get a detailed risk report in seconds. No guesswork. No Googling. No panic. Just clear answers when you need them most."
+  },
+  "blog": {
+    "label": "Blog",
+    "title": "Learn how to spot scams before they happen",
+    "read_more": "Read More",
+    "back": "Back to Home",
+    "intro": "Introduction",
+    "conclusion": "Conclusion",
+    "red_flags": "Red Flags:",
+    "what_to_do": "What to do:",
+    "not_found": "Article Not Found",
+    "share_title": "Share Article",
+    "share": "Share",
+    "copied": "Copied!",
+    "copy_link": "Copy Link"
+  }
+}

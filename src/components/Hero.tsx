@@ -1,6 +1,9 @@
+import { useTranslation } from "react-i18next";
 import heroImage from "../assets/hero-image.png";
 
 const Hero = () => {
+  const { t } = useTranslation();
+
   return (
     <section
       id="home"
@@ -11,13 +14,11 @@ const Hero = () => {
           {/* Left Side Content */}
           <div className="max-w-xl text-center lg:text-left mx-auto lg:mx-0 z-10">
             <h1 className="text-3xl sm:text-4xl lg:text-5xl font-semibold text-[#333333] leading-[1.2] lg:leading-[1.1] tracking-[-0.02em] mb-6">
-              Stop scammers before you lose a single ringgit
+              {t("hero.title")}
             </h1>
 
             <p className="text-sm sm:text-base lg:text-[16px] font-light text-[#303030] leading-[1.6] lg:leading-[1.7] mb-8 max-w-md mx-auto lg:mx-0">
-              Upload a screenshot of any suspicious message. Get a risk report
-              in seconds — before you click, reply, or transfer. Built for
-              Malaysians, powered by AI.
+              {t("hero.subtitle")}
             </p>
 
             <div className="flex flex-col sm:flex-row items-center justify-center lg:justify-start gap-4">
@@ -25,7 +26,7 @@ const Hero = () => {
                 href="https://skamguard-710868323753.asia-southeast1.run.app/"
                 className="w-full sm:w-auto inline-flex items-center justify-center gap-2.5 px-8 py-4 bg-[#2AABEE] hover:bg-[#1C9AD9] text-white text-[15px] font-medium rounded-lg transition-all duration-200 shadow-sm hover:shadow-md"
               >
-                Analyze a Message Now
+                {t("hero.cta")}
                 <svg width="18" height="18" viewBox="0 0 24 24" fill="none">
                   <path
                     d="M5 12H19M19 12L12 5M19 12L12 19"
@@ -39,7 +40,7 @@ const Hero = () => {
             </div>
 
             <p className="mt-5 text-xs sm:text-sm text-gray-400 italic">
-              Free. No signup required. Works on WhatsApp, SMS, and Telegram.
+              {t("hero.footer")}
             </p>
           </div>
 

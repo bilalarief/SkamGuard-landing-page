@@ -1,47 +1,22 @@
 import { useState } from 'react';
-
-interface FAQItem {
-  question: string;
-  answer: string;
-}
-
-const faqItems: FAQItem[] = [
-  {
-    question: 'Is my data safe?',
-    answer: "Yes. Your screenshots are processed securely and never stored permanently. We don't sell or share your data with anyone.",
-  },
-  {
-    question: 'Does it work for scams in Bahasa Malaysia?',
-    answer: 'Absolutely. SkamGuard is trained on Malaysian scam patterns, including common Bahasa Malaysia phrases used by scammers.',
-  },
-  {
-    question: "What if the scam isn't in the database yet?",
-    answer: "SkamGuard uses AI to detect scam tactics — not just known scams. Even if the exact message is new, it can spot urgency language, fake authority claims, and suspicious links.",
-  },
-  {
-    question: 'Is my data safe?',
-    answer: "Yes. Your screenshots are processed securely and never stored permanently. We don't sell or share your data with anyone.",
-  },
-  {
-    question: 'Can I use this for free?',
-    answer: 'Yes. SkamGuard is free for personal use with a daily limit. Premium plans for unlimited checks are coming soon.',
-  },
-  {
-    question: 'How is this different from just Googling the number?',
-    answer: "Google won't analyze the message content, check URL safety, or give you a risk score. SkamGuard does all three at once — and it's trained specifically on Malaysian scams.",
-  },
-  {
-    question: "What if I'm not tech-savvy?",
-    answer: "That's exactly who we built this for. Just upload the screenshot. Everything else is automatic.",
-  },
-];
+import { useTranslation } from 'react-i18next';
 
 const FAQ = () => {
+  const { t } = useTranslation();
   const [openIndex, setOpenIndex] = useState<number | null>(null);
 
   const toggleFAQ = (index: number) => {
     setOpenIndex(openIndex === index ? null : index);
   };
+
+  const faqItems = [
+    { question: t('faq.q1'), answer: t('faq.a1') },
+    { question: t('faq.q2'), answer: t('faq.a2') },
+    { question: t('faq.q3'), answer: t('faq.a3') },
+    { question: t('faq.q4'), answer: t('faq.a4') },
+    { question: t('faq.q5'), answer: t('faq.a5') },
+    { question: t('faq.q6'), answer: t('faq.a6') },
+  ];
 
   return (
     <section id="faq" className="py-20 lg:py-28 bg-[#F7F8FA]">
@@ -51,12 +26,10 @@ const FAQ = () => {
           {/* Left - Header */}
           <div className="text-center lg:text-left">
             <span className="inline-block px-4 py-1.5 border border-gray-300 rounded-lg text-sm sm:text-base font-medium text-[#333333] mb-5">
-              Questions
+              {t("faq.label")}
             </span>
             <h2 className="text-3xl sm:text-4xl lg:text-5xl font-medium text-[#333333] leading-[1.2] lg:leading-[1.15] tracking-[-0.02em]">
-              Frequently Ask
-              <br className="hidden sm:block" />
-              {" "}Question
+              {t("faq.title")}
             </h2>
           </div>
 
