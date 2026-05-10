@@ -64,15 +64,29 @@ const Navigation = () => {
 
   // Handle cross-page or internal navigation
   useEffect(() => {
-    if (location.pathname === "/" && location.hash) {
-      const id = location.hash.replace("#", "");
-      setTimeout(() => {
-        const element = document.getElementById(id);
-        if (element) {
-          element.scrollIntoView({ behavior: "smooth" });
-        }
-      }, 100);
-    }
+    const handleHashScroll = () => {
+      if (location.pathname === "/" && location.hash) {
+        const id = location.hash.replace("#", "");
+        let attempts = 0;
+        const maxAttempts = 10;
+
+        const tryScroll = () => {
+          const element = document.getElementById(id);
+          if (element) {
+            setTimeout(() => {
+              element.scrollIntoView({ behavior: "smooth" });
+            }, 50);
+          } else if (attempts < maxAttempts) {
+            attempts++;
+            setTimeout(tryScroll, 100);
+          }
+        };
+
+        tryScroll();
+      }
+    };
+
+    handleHashScroll();
   }, [location.pathname, location.hash]);
 
   const handleNav = (target: string) => {

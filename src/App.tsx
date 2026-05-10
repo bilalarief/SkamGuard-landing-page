@@ -20,15 +20,30 @@ const LoadingSpinner = () => (
 
 const HomePage = () => {
   React.useEffect(() => {
-    if (window.location.hash) {
-      const id = window.location.hash;
-      const element = document.querySelector(id);
-      if (element) {
-        setTimeout(() => {
-          element.scrollIntoView({ behavior: 'smooth' });
-        }, 100);
+    const handleInitialHash = () => {
+      const hash = window.location.hash;
+      if (hash) {
+        const id = hash.replace('#', '');
+        let attempts = 0;
+        const maxAttempts = 20; // 2 seconds total
+
+        const tryScroll = () => {
+          const element = document.getElementById(id);
+          if (element) {
+            setTimeout(() => {
+              element.scrollIntoView({ behavior: 'smooth' });
+            }, 100);
+          } else if (attempts < maxAttempts) {
+            attempts++;
+            setTimeout(tryScroll, 100);
+          }
+        };
+
+        tryScroll();
       }
-    }
+    };
+
+    handleInitialHash();
   }, []);
 
   return (
